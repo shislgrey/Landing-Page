@@ -13,82 +13,82 @@
   }
  
   .header {
-
+    display: flex;
   }
 
   .title-1 {
-
+    display: flex;
   }
 
   .header-links {
-
+    display: flex;
   }
 
   a {
-
+    display: flex;
   }
 
   ul {
-
+    display: flex;
   }
   
   .hero-box {
-
+    display: flex;
   }
 
   .title-2 {
-
+    display: flex; 
   }
 
   .text {
-
+    display: flex;
   }
 
   img {
-
+    display: flex;
   }
 
   .quote {
-
+    display: flex;
   }
 
   .quote-text {
-
+    display: flex;
   }
 
   .attribution {
-
+    display: flex;
   }
 
   .modal {
-
+    display: flex;
   }
 
   #button {
-
+    display: flex;
   }
 
   .top {
-
+    display: flex;
   }
 
   .close-button {
-
+    display: flex;
   }
 
   #bottom {
-
+    display: flex;
   }
 
   #signup {
-
+    display: flex;
   }
   .continue {
-
+    display: flex;
   }
   .footer {
-
+    display: flex;
   }
   .footer-text {
-      
+    display: flex;
   }
