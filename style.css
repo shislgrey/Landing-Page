@@ -12,8 +12,9 @@
     justify-content: center;
   }
  
-  .header {
+  #header {
     display: flex;
+    background-color: #1F2937;
   }
 
   .title-1 {
@@ -32,8 +33,9 @@
     display: flex;
   }
   
-  .hero-box {
+  #hero-box {
     display: flex;
+    background-color: #1F2937;
   }
 
   .title-2 {
@@ -50,6 +52,7 @@
 
   .quote {
     display: flex;
+    background-color: #E5E7EB;
   }
 
   .quote-text {
@@ -62,6 +65,7 @@
 
   .modal {
     display: flex;
+    background-color: #3882F6;
   }
 
   #button {
@@ -82,12 +86,15 @@
 
   #signup {
     display: flex;
+    background-color: #3882F6;
   }
   .continue {
     display: flex;
+    background-color: #3882F6;
   }
   .footer {
     display: flex;
+    background-color: #1F2937;
   }
   .footer-text {
     display: flex;
