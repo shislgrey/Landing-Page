@@ -19,18 +19,27 @@
 
   .title-1 {
     display: flex;
+    align-content: flex-start;
+    font-size: 24px;
+    color: #F9FAF8;
   }
 
   .header-links {
     display: flex;
+    align-content: flex-end;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
   }
 
-  a {
-    display: flex;
+  a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #E5E7EB;
   }
 
   ul {
     display: flex;
+    list-style-type: none;
   }
   
   #hero-box {
