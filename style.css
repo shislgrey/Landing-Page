@@ -49,10 +49,22 @@
 
   .title-2 {
     display: flex; 
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8
+  }
+
+  .title-3 {
+    display: flex;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
   }
 
   .text {
     display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
   }
 
   img {
@@ -61,15 +73,21 @@
 
   .quote {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #E5E7EB;
   }
 
   .quote-text {
     display: flex;
+    font-size: 36px;
+    font-weight: light italic;
+    color: #1F2937;
   }
 
   .attribution {
     display: flex;
+    align-content: right;
   }
 
   .modal {
@@ -103,8 +121,12 @@
   }
   .footer {
     display: flex;
+    flex-direction: column;
     background-color: #1F2937;
+    align-items: center;
   }
   .footer-text {
     display: flex;
+    flex-direction: column;
+    align-content: center;
   }
