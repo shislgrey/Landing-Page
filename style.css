@@ -1,134 +1,145 @@
 .catbox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 400px;
-    gap: 52px;
-  }
-  
-  #cat {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
- 
-  #header {
-    display: flex;
-    background-color: #1F2937;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  gap: 52px;
+}
 
-  .title-1 {
-    display: flex;
-    align-content: flex-start;
-    font-size: 24px;
-    color: #F9FAF8;
-  }
+#cat {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
-  .header-links {
-    display: flex;
-    align-content: flex-end;
-    font-size: 18px;
-    color: #E5E7EB;
-    text-decoration: none;
-  }
+#header {
+  display: flex;
+  background-color: #1f2937;
+}
 
-  a:link, a:visited, a:hover, a:active {
-    text-decoration: none;
-    color: #E5E7EB;
-  }
+.title-1 {
+  display: flex;
+  align-content: flex-start;
+  font-size: 24px;
+  color: #f9faf8;
+}
 
-  ul {
-    display: flex;
-    list-style-type: none;
-  }
-  
-  #hero-box {
-    display: flex;
-    background-color: #1F2937;
-  }
+.header-links {
+  display: flex;
+  align-content: flex-end;
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
 
-  .title-2 {
-    display: flex; 
-    font-size: 48px;
-    font-weight: extra-bold;
-    color: #F9FAF8
-  }
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #e5e7eb;
+}
 
-  .title-3 {
-    display: flex;
-    font-size: 36px;
-    font-weight: extra-bold;
-    color: #1F2937;
-  }
+ul {
+  display: flex;
+  list-style-type: none;
+}
 
-  .text {
-    display: flex;
-    font-size: 18px;
-    color: #E5E7EB;
-  }
+#hero-box {
+  display: flex;
+  background-color: #1f2937;
+}
 
-  img {
-    display: flex;
-    height: 300px;
-    width: 300px;
-  }
+.title-2 {
+  display: flex;
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
 
-  .quote {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #E5E7EB;
-  }
+.title-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+}
 
-  .quote-text {
-    display: flex;
-    font-size: 36px;
-    font-weight: light italic;
-    color: #1F2937;
-  }
+.text {
+  display: flex;
+  font-size: 18px;
+  color: #e5e7eb;
+}
 
-  .attribution {
-    display: flex;
-    align-content: right;
-  }
+img {
+  display: flex;
+  height: 300px;
+  width: 300px;
+}
 
-  .modal {
-    display: flex;
-    background-color: #3882F6;
-  }
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e7eb;
+}
 
-  #button {
-    display: flex;
-  }
+.quote-text {
+  display: flex;
+  font-size: 36px;
+  font-weight: light italic;
+  color: #1f2937;
+}
 
-  .top {
-    display: flex;
-  }
+.attribution {
+  display: flex;
+  align-content: right;
+}
 
-  .close-button {
-    display: flex;
-  }
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-color: #3882f6;
+  width: 480px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+}
 
-  #bottom {
-    display: flex;
-  }
+#button {
+  display: flex;
+}
 
-  #signup {
-    display: flex;
-    background-color: #3882F6;
-  }
-  .continue {
-    display: flex;
-    background-color: #3882F6;
-  }
-  .footer {
-    display: flex;
-    flex-direction: column;
-    background-color: #1F2937;
-    align-items: center;
-  }
-  .footer-text {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
+.top {
+  display: flex;
+}
+
+.close-button {
+  display: flex;
+}
+
+#bottom {
+  display: flex;
+}
+
+#signup {
+  display: flex;
+  background-color: #3882f6;
+}
+.continue {
+  display: flex;
+  background-color: #3882f6;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  align-items: center;
+}
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
