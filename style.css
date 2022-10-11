@@ -1,3 +1,9 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .catbox {
   display: flex;
   flex-direction: column;
@@ -102,6 +108,10 @@ img {
   display: flex;
   flex-direction: column;
   align-self: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
   background-color: #3882f6;
   width: 480px;
   padding: 20px;
@@ -111,10 +121,12 @@ img {
 
 #button {
   display: flex;
+  align-self: center;
 }
 
 .top {
   display: flex;
+  align-content: center;
 }
 
 .close-button {
