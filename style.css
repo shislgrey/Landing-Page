@@ -15,7 +15,7 @@ body {
 #cat {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 #header {
@@ -58,6 +58,7 @@ ul {
 
 #hero-box {
   display: flex;
+  justify-content: space-around;
   background-color: #1f2937;
 }
 
@@ -75,6 +76,13 @@ ul {
   font-size: 36px;
   font-weight: extra-bold;
   color: #1f2937;
+}
+
+.text2 {
+  display: flex;
+  font-size: 18px;
+  color: #e5e7eb;
+  align-self: flex-end;
 }
 
 .text {
@@ -139,15 +147,20 @@ img {
 
 #bottom {
   display: flex;
+  flex-direction: row;
+  justify-self: flex-end;
 }
 
 #signup {
   display: flex;
+  justify-self: flex-end;
   background-color: #3882f6;
 }
 .continue {
   display: flex;
   background-color: #3882f6;
+  align-self: flex-end;
+  justify-self: flex-end;
 }
 .footer {
   display: flex;
