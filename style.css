@@ -64,10 +64,15 @@ ul {
   background-color: #1f2937;
 }
 
+.grouping {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .title-2 {
   display: flex;
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: bolder;
   color: #f9faf8;
 }
 
@@ -76,7 +81,7 @@ ul {
   flex-direction: column;
   align-items: center;
   font-size: 36px;
-  font-weight: extra-bold;
+  font-weight: bolder;
   color: #1f2937;
   padding: 20px;
 }
@@ -85,8 +90,6 @@ ul {
   display: flex;
   font-size: 18px;
   color: #e5e7eb;
-  align-self: center;
-  justify-self: flex-start;
 }
 
 .text {
@@ -125,7 +128,7 @@ img {
   flex-direction: row;
   justify-content: center;
   font-size: 36px;
-  font-weight: light italic;
+  font-style: italic;
   color: #1f2937;
   padding-top: 20px;
 }
