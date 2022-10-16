@@ -67,7 +67,9 @@ ul {
 .grouping {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-right: 50px;
 }
 .title-2 {
   display: flex;
