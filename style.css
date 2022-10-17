@@ -24,7 +24,7 @@ body {
   background-color: #1f2937;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 50px;
 }
 
 .title-1 {
@@ -67,8 +67,8 @@ ul {
 .grouping {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  padding-left: 100px;
+  justify-content: left;
+  padding-left: 50px;
   padding-right: 50px;
 }
 .title-2 {
@@ -76,6 +76,7 @@ ul {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+  align-self: left;
 }
 
 .title-3 {
@@ -92,6 +93,8 @@ ul {
   display: flex;
   font-size: 18px;
   color: #e5e7eb;
+  max-width: 400px;
+  align-self: left;
 }
 
 .text {
