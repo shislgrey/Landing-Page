@@ -60,23 +60,24 @@ ul {
 
 #hero-box {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #1f2937;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .grouping {
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  padding-left: 50px;
-  padding-right: 50px;
+  justify-content: space-evenly;
+  align-items: left;
 }
 .title-2 {
   display: flex;
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
-  align-self: left;
+  align-self: flex-start;
 }
 
 .title-3 {
@@ -94,7 +95,7 @@ ul {
   font-size: 18px;
   color: #e5e7eb;
   max-width: 400px;
-  align-self: left;
+  align-self: flex-end;
 }
 
 .text {
