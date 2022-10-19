@@ -2,7 +2,8 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .catbox {
@@ -24,7 +25,7 @@ body {
   background-color: #1f2937;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px 50px;
+  padding: 20px 200px;
 }
 
 .title-1 {
@@ -62,8 +63,8 @@ ul {
   display: flex;
   justify-content: space-between;
   background-color: #1f2937;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .grouping {
@@ -71,6 +72,7 @@ ul {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: left;
+  height: 350px;
 }
 .title-2 {
   display: flex;
@@ -98,6 +100,22 @@ ul {
   align-self: flex-end;
 }
 
+.join {
+  display: flex;
+  background-color: #3882f6;
+  align-self: left;
+  justify-self: flex-end;
+  color: #e5e7eb;
+  font-size: 14px;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
 .text {
   display: flex;
   font-size: 18px;
@@ -107,7 +125,7 @@ ul {
 
 .text3 {
   display: flex;
-  justify-self: flex-start;
+  justify-self: flex-end;
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -125,14 +143,23 @@ img {
 .quote {
   display: flex;
   flex-direction: column;
-  align-items: space-around;
+  justify-content: center;
+  align-items: center;
   background-color: #e5e7eb;
+  height: 150px;
+}
+
+#quotebox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
 }
 
 .quote-text {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  align-self: flex-start;
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
@@ -141,21 +168,18 @@ img {
 
 .attribution {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  align-self: flex-end;
   padding-bottom: 20px;
 }
 
 .modal {
   display: flex;
-  flex-direction: column;
   align-self: center;
-  align-items: center;
   align-content: center;
-  justify-content: center;
-  justify-items: center;
+  justify-content: space-around;
   background-color: #3882f6;
-  width: 480px;
+  width: 600px;
+  height: 75px;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
@@ -163,14 +187,15 @@ img {
   margin: 20px;
 }
 
-#button {
+#content {
   display: flex;
-  align-self: flex-start;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .top {
   display: flex;
-  align-self: center;
+  align-self: flex-start;
   font-size: 20px;
   font-weight: bold;
 }
@@ -181,21 +206,24 @@ img {
   align-self: space-around;
 }
 
-.signup {
-  display: flex;
-  justify-self: flex-end;
-  background-color: #3882f6;
-  color: #e5e7eb;
-}
-
 .continue {
   display: flex;
   background-color: #3882f6;
-  align-self: flex-end;
+  align-self: center;
   justify-self: flex-end;
   color: #e5e7eb;
-  border-radius: 5%;
+  font-size: 14px;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: white;
+  border-style: solid;
+  border-width: 2px;
+  justify-content: center;
+  align-items: center;
 }
+
 .footer {
   display: flex;
   flex-direction: column;
